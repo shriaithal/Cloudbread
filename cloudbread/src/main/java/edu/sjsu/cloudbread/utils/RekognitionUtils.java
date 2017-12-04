@@ -45,7 +45,11 @@ public class RekognitionUtils {
 		categoryLabels.put("Salad", FoodDetails.CategoryEnum.Raw);
 
 	}
-
+	/**
+	 * 
+	 * @author Nidhi Jamar
+ 	 *
+ 	**/
 	public AmazonRekognition getRekognitionClient() {
 		try {
 			if (rekognitionClient == null) {
@@ -66,7 +70,12 @@ public class RekognitionUtils {
 		}
 		return rekognitionClient;
 	}
-
+	
+	/**
+	 * 
+	 * @author Nidhi Jamar
+ 	 *
+ 	**/
 	public FoodDetails.CategoryEnum getfoodCategory(String username, String fileName) {
 		if (rekognitionClient == null)
 			getRekognitionClient();
