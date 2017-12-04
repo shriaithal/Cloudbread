@@ -1,0 +1,25 @@
+sudo apt-get update
+sudo apt-get install default-jdk
+sudo groupadd tomcat
+sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
+cd /tmp
+wget http://www-eu.apache.org/dist/tomcat/tomcat-8/v8.5.23/bin/apache-tomcat-8.5.23.tar.gz
+sudo mkdir /opt/tomcat
+sudo tar xvf apache-tomcat-8*tar.gz -C /opt/tomcat --strip-components=1
+cd /opt/tomcat
+sudo chgrp -R tomcat /opt/tomcat
+sudo chown -R tomcat /opt/tomcat
+sudo chmod -R 755 /opt/tomcat
+sudo vim /etc/systemd/system/tomcat.service
+[Copy the instructions in tomcat.sh file to the above file]
+ln -s /etc/init.d/tomcat /etc/rc.d/rc6.d/K26tomcat
+sudo systemctl daemon-reload
+sudo systemctl start tomcat
+sudo systemctl status tomcat
+
+#!/bin/bash
+export CATALINA_HOME="/opt/tomcat"
+echo $CATALINA_HOME > /tmp/start.txt
+export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64/jre"
+echo $JAVA_HOME > /tmp/start1.txt
+sudo $CATALINA_HOME/bin/startup.sh

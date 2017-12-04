@@ -1,0 +1,15 @@
+ h2 {
+    text-align: center;
+    font-family: "verdana";
+  }
+  
+  #listTable td 
+{
+    text-align:center; 
+    vertical-align:middle;
+}
+
+.i-am-centered 
+{ margin: auto; 
+max-width: 300px;
+}

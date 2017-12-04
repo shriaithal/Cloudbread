@@ -1,0 +1,47 @@
+{
+  "Address": {
+    "S": ""
+  },
+  "BadReviews": {
+    "N": ""
+  },
+  "Capacity": {
+    "N": ""
+  },
+  "Distance": {
+    "N": ""
+  },
+  "FoodType": {
+    "S": ""
+  },
+  "GoodReviews": {
+    "N": ""
+  },
+  "Name": {
+    "S": ""
+  },
+  "Occupancy": {
+    "N": ""
+  },
+  "Password": {
+    "S": ""
+  },
+  "PredictionEnabled": {
+    "S": ""
+  },
+  "PriceRating": {
+    "N": ""
+  },
+  "Ratings": {
+    "N": "4.1"
+  },
+  "UserId": {
+    "S": ""
+  },
+  "UserName": {
+    "S": ""
+  },
+  "UserRole": {
+    "S": ""
+  }
+}
