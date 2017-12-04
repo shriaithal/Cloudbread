@@ -14,7 +14,12 @@ import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClientBuilder;
 public class DynamoDbClient {
 
 	private AmazonDynamoDB dynamoDB;
-
+	
+	/**
+	 * 
+	 * @author Nidhi Jamar
+ 	 *
+ 	**/
 	@PostConstruct
 	private void init() {
 		AWSCredentialsProvider awsCredentialsProvider = new ClasspathPropertiesFileCredentialsProvider(
