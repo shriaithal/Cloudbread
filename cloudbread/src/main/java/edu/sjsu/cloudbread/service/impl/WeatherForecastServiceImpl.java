@@ -13,6 +13,11 @@ import org.springframework.stereotype.Service;
 
 import edu.sjsu.cloudbread.service.WeatherForecastService;
 
+/**
+* 
+* @author Ashwini Shankar Narayan
+*
+**/
 @Service
 public class WeatherForecastServiceImpl implements WeatherForecastService {
 	
