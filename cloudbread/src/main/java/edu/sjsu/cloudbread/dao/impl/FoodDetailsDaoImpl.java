@@ -26,7 +26,12 @@ public class FoodDetailsDaoImpl implements FoodDetailsDao {
 
 	@Autowired
 	DynamoDbClient dbClient;
-
+	
+	/**
+	 * 
+	 * @author Nidhi Jamar
+ 	 *
+ 	**/
 	@Override
 	public void upload(FoodDetails foodDetails) throws Exception {
 		AmazonDynamoDB dynamoDB = dbClient.getDynamoDB();
@@ -52,7 +57,12 @@ public class FoodDetailsDaoImpl implements FoodDetailsDao {
 		return scanResultFoodDetails;
 
 	}
-
+	
+	/**
+	 * 
+	 * @author Nidhi Jamar
+ 	 *
+ 	**/
 	public List<FoodDetails> getFoodDetailsCharity() throws Exception {
 		AmazonDynamoDB dynamoDB = dbClient.getDynamoDB();
 
@@ -68,6 +78,11 @@ public class FoodDetailsDaoImpl implements FoodDetailsDao {
 
 	}
 
+	/**
+	 * 
+	 * @author Nidhi Jamar
+ 	 *
+ 	**/
 	@Override
 	public void updateStatus(String requestId, String status, String userName) throws Exception {
 		AmazonDynamoDB dynamoDB = dbClient.getDynamoDB();
@@ -101,7 +116,11 @@ public class FoodDetailsDaoImpl implements FoodDetailsDao {
 		}
 
 	}
-
+	/**
+	 * 
+	 * @author Anushri Srinath Aithal 
+ 	 *
+ 	**/
 	@Override
 	public FoodDetails getFoodDetailsByRequestId(String requestId) {
 		AmazonDynamoDB dynamoDB = dbClient.getDynamoDB();
