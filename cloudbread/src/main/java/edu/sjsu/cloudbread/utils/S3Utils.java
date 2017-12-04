@@ -56,10 +56,13 @@ public class S3Utils {
 		}
 		return s3client;
 	}
-
-	/***
-	 * Function to upload object at S3 location
-	 */
+	
+	/**
+	 * 
+	 * @author Nidhi Jamar
+ 	 * Function to upload object at S3 location
+	 *
+ 	**/	
 	public int uploadKey(String username, MultipartFile file, String fileName) {
 		System.out.println("in UP: " + username);
 		AmazonS3 s3client = getS3Client();
@@ -108,10 +111,13 @@ public class S3Utils {
 		serverFile.delete();
 		return 1;
 	}
-
-	/***
-	 * Function to create bucket for new registered user
-	 */
+	
+	/**
+	 * 
+	 * @author Nidhi Jamar
+ 	 * Function to create bucket for new registered user
+	 *
+ 	**/	
 	public int createBucket(String username) {
 		System.out.println("Creating Bucket for User: " + username);
 		try {
