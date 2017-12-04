@@ -1,3 +1,8 @@
+/**
+ * 
+ * @author Anuradha Rajashekar
+ *
+ */
 var app = angular.module('cloudbreadApp', [ 'ngRoute', 'ngCookies', 'ngFileUpload','chart.js' ]);
 
 app.config(function($routeProvider) {
