@@ -62,7 +62,7 @@ public class CloudBreadBusinessPortalController {
 	
 	/**
 	 * 
-	 * @author Nidhi Jamar
+	 * @author 
  	 *
  	**/
 	@RequestMapping(value = "/signup", method = RequestMethod.POST, produces = "application/json")
