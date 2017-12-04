@@ -30,7 +30,7 @@ Analytics are provided to help restaurants reduce their food wastage. AWS Machin
 8.	Data warehouse using Redshift and Lambda. When the ML Data .csv file will be uploaded to S3 bucket, the data from .csv file will be copied to Redshift.
 
 ### Architecture Diagram
-<br/>[Fig.1 AWS Component Architecture](https://user-images.githubusercontent.com/1582196/33578099-32932c56-d8fa-11e7-8a3d-0a2b7803df4e.png)<br/>
+<br/>![Fig.1 AWS Component Architecture](https://user-images.githubusercontent.com/1582196/33578099-32932c56-d8fa-11e7-8a3d-0a2b7803df4e.png)<br/>
 ### Application Screenshots
 ### Pre-requisite Set Up
 
