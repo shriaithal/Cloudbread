@@ -23,7 +23,12 @@ public class LambdaFunctionHandler implements RequestHandler<S3Event, String> {
     LambdaFunctionHandler(AmazonS3 s3) {
         this.s3 = s3;
     }
-
+    
+    /**
+	 * 
+	 * @author Nidhi Jamar
+ 	 *
+ 	**/
     @Override
     public String handleRequest(S3Event event, Context context) {
         context.getLogger().log("Received event: " + event);
