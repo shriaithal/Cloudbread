@@ -1,3 +1,8 @@
+/**
+ * 
+ * @author Anuradha Rajashekar
+ *
+ */
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,7 +15,7 @@ background-color: gainsboro;
 	<div data-ng-app="cloudbreadApp" data-ng-controller="loginCtrl" style="background-image:url(/resources/views/795-de-Milioane-de-Oameni-Sufera-de-Foame-in-Intreaga-Lume.jpg); top:-20px; height:450px;">
 	
 	<div class="alert alert-danger" data-ng-show="showErrorAlert">
-        <button type="button" class="close" data-ng-click="switchBool('showErrorAlert')">×</button> <strong>Error!</strong> {{errorTextAlert}}</div>
+        <button type="button" class="close" data-ng-click="switchBool('showErrorAlert')">Ã—</button> <strong>Error!</strong> {{errorTextAlert}}</div>
         	
 	<div class="" style="    position: absolute;top: 68px;right: 5%;width: 517px;background-color: dimgrey;margin:395px;">
 	<h1 class="welcome text-left col-md-11 multi-horizontal">Create an Account</h1>
