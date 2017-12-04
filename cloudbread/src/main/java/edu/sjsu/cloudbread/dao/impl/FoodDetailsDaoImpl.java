@@ -38,7 +38,12 @@ public class FoodDetailsDaoImpl implements FoodDetailsDao {
 		DynamoDBMapper mapper = new DynamoDBMapper(dynamoDB);
 		mapper.save(foodDetails);
 	}
-
+	
+	/**
+	 * 
+	 * @author Nidhi Jamar
+ 	 *
+ 	**/
 	public List<FoodDetails> getFoodDetails(String userName) throws Exception {
 		AmazonDynamoDB dynamoDB = dbClient.getDynamoDB();
 		System.out.println("Start");
