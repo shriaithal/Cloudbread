@@ -32,6 +32,11 @@ Analytics are provided to help restaurants reduce their food wastage. AWS Machin
 ### Architecture Diagram
 <br/>![Fig.1 AWS Component Architecture](https://user-images.githubusercontent.com/1582196/33578099-32932c56-d8fa-11e7-8a3d-0a2b7803df4e.png)<br/>
 ### Application Screenshots
+<br>![Fig.2 Sign-up Screen](https://user-images.githubusercontent.com/1582196/33578216-b5def586-d8fa-11e7-89bf-78c8b5577ceb.png)</br>
+<br>![Fig.3 Login Screen](https://user-images.githubusercontent.com/1582196/33578217-b9880c36-d8fa-11e7-8ce7-6570ab6927cb.png)</br>
+<br>![Fig.4 Business Home Page](https://user-images.githubusercontent.com/1582196/33578231-be94590a-d8fa-11e7-92bd-09ec0d7d8836.png)</br>
+<br>![Fig.5 Business List Page](https://user-images.githubusercontent.com/1582196/33578235-c17b7766-d8fa-11e7-9169-2a619798a47d.png)</br>
+<br>![Fig.6 Charity Home Page](https://user-images.githubusercontent.com/1582196/33578236-c420c872-d8fa-11e7-816a-9c020d7a8c93.png)</br>
 ### Pre-requisite Set Up
 
 Resources to be configured on AWS:
