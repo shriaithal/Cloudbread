@@ -62,7 +62,7 @@ public class CloudBreadBusinessPortalController {
 	
 	/**
 	 * 
-	 * @author 
+	 * @author Ashwini Shankar Narayan
  	 *
  	**/
 	@RequestMapping(value = "/signup", method = RequestMethod.POST, produces = "application/json")
@@ -147,6 +147,12 @@ public class CloudBreadBusinessPortalController {
 		}
 		return responseEntity;
 	}
+	
+	/**
+	 * 
+	 * @author Ashwini Shankar Narayan
+ 	 *
+ 	**/
 	
 	@RequestMapping(value = "/graphPlots", method = RequestMethod.GET, produces = "application/json")
 	@ResponseBody
