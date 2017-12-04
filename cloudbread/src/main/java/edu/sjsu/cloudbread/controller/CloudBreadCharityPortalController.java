@@ -22,7 +22,12 @@ public class CloudBreadCharityPortalController {
 
 	@Autowired
 	CloudBreadCharityService service;
-
+	
+	/**
+	 * 
+	 * @author Nidhi Jamar
+ 	 *
+ 	**/
 	@RequestMapping(value = "/charityList", method = RequestMethod.GET, produces = "application/json")
 	@ResponseBody
 	public ResponseEntity<FoodDetailsResponse> getFoodDetailsCharity(
@@ -46,7 +51,11 @@ public class CloudBreadCharityPortalController {
 		return responseEntity;
 	}
 
-
+	/**
+	 * 
+	 * @author Nidhi Jamar
+ 	 *
+ 	**/
 	@RequestMapping(value = "/updateStatus", method = RequestMethod.POST, produces = "application/json")
 	@ResponseBody
 	public ResponseEntity<FoodDetailsResponse> updateStatus(
