@@ -152,7 +152,11 @@ public class EmailClient {
 			throw e;
 		}
 	}
-
+/**
+ * 
+ * @author Anuradha Rajashekar
+ *
+ */
 	private void notifyBusinessEmail(MailerEvent event) {
 		LOG.info("Sending business emails");
 		try {
@@ -173,6 +177,11 @@ public class EmailClient {
 			LOG.error(e);
 		}
 	}
+/**
+ * 
+ * @author Anuradha Rajashekar
+ *
+ */
 
 	private void notifyCharirtyEmail(MailerEvent event) throws Exception {
 		LOG.info("Sending charity emails");
@@ -245,6 +254,11 @@ public class EmailClient {
 			LOG.error(e);
 		}
 	}
+/**
+ * 
+ * @author Anuradha Rajashekar
+ *
+ */
 
 	private void sendValidationEmail(MailerEvent event) {
 		User user = userDao.getUserById(event.getId());
