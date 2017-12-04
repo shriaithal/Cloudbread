@@ -37,7 +37,12 @@ public class CloudBreadBusinessPortalController {
 	public String startPage(ModelMap model) {
 		return "index";
 	}
-
+	
+	/**
+	 * 
+	 * @author Nidhi Jamar
+ 	 *
+ 	**/
 	@RequestMapping(value = "/login", method = RequestMethod.POST, produces = "application/json")
 	@ResponseBody
 	public ResponseEntity<UserResponse> login(@RequestBody LoginRequest request) {
@@ -54,7 +59,12 @@ public class CloudBreadBusinessPortalController {
 		}
 		return responseEntity;
 	}
-
+	
+	/**
+	 * 
+	 * @author Nidhi Jamar
+ 	 *
+ 	**/
 	@RequestMapping(value = "/signup", method = RequestMethod.POST, produces = "application/json")
 	@ResponseBody
 	public ResponseEntity<UserResponse> signup(@RequestBody SignUpRequest request) {
@@ -72,6 +82,11 @@ public class CloudBreadBusinessPortalController {
 		return responseEntity;
 	}
 	
+	/**
+	 * 
+	 * @author Nidhi Jamar
+ 	 *
+ 	**/
 	@RequestMapping(value = "/upload", method = RequestMethod.POST, produces = "application/json")
 	@ResponseBody
 	public ResponseEntity<GenericResponse> upload(
@@ -107,7 +122,12 @@ public class CloudBreadBusinessPortalController {
 		return responseEntity;
 
 	}
-
+	
+	/**
+	 * 
+	 * @author Nidhi Jamar
+ 	 *
+ 	**/
 	@RequestMapping(value = "/businessList", method = RequestMethod.GET, produces = "application/json")
 	@ResponseBody
 	public ResponseEntity<FoodDetailsResponse> getFoodDetails(
