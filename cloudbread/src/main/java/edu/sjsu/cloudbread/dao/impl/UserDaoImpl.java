@@ -20,7 +20,12 @@ public class UserDaoImpl implements UserDao {
 
 	@Autowired
 	DynamoDbClient dbClient;
-
+	
+	/**
+	 * 
+	 * @author Nidhi Jamar
+ 	 *
+ 	**/
 	public User getUserByNameAndPassowrd(String userName, String password) {
 
 		AmazonDynamoDB dynamoDB = dbClient.getDynamoDB();
@@ -41,6 +46,11 @@ public class UserDaoImpl implements UserDao {
 			return null;
 	}
 	
+	/**
+	 * 
+	 * @author Nidhi Jamar
+ 	 *
+ 	**/
 	@Override
 	public User getUserById(String id) {
 
@@ -68,6 +78,11 @@ public class UserDaoImpl implements UserDao {
 		mapper.save(newuser);
 	}
 	
+	/**
+	 * 
+	 * @author Nidhi Jamar
+ 	 *
+ 	**/
 	@Override
 	public User getUserByUserName(String userName) throws Exception {
 
