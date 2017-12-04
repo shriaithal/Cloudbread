@@ -51,7 +51,12 @@ public class CloudBreadBusinessServiceImpl implements CloudBreadBusinessService 
 
 	@Autowired
 	MLDataDao mlDataDao;
-
+	
+	/**
+	 * 
+	 * @author Nidhi Jamar
+ 	 *
+ 	**/
 	@Override
 	public UserResponse login(String userName, String password) throws Exception {
 
@@ -76,7 +81,12 @@ public class CloudBreadBusinessServiceImpl implements CloudBreadBusinessService 
 		}
 		return null;
 	}
-
+	
+	/**
+	 * 
+	 * @author Nidhi Jamar
+ 	 *
+ 	**/
 	@Override
 	public UserResponse signUp(SignUpRequest request) throws ValidationException {
 
@@ -115,7 +125,12 @@ public class CloudBreadBusinessServiceImpl implements CloudBreadBusinessService 
 		}
 		return null;
 	}
-
+	
+	/**
+	 * 
+	 * @author Nidhi Jamar
+ 	 *
+ 	**/
 	@Override
 	public GenericResponse upload(UploadRequest request) throws ValidationException {
 		try {
@@ -160,7 +175,12 @@ public class CloudBreadBusinessServiceImpl implements CloudBreadBusinessService 
 		return null;
 
 	}
-
+	
+	/**
+	 * 
+	 * @author Nidhi Jamar
+ 	 *
+ 	**/
 	@Override
 	public FoodDetailsResponse getFoodDetails(String userName) throws Exception {
 
