@@ -57,7 +57,7 @@ Softwares to download locally:
 1.	Server Side: Spring MVC, REST, Java, AWS Java SDK, Apache commons and Fasterxml/Jackson
 2.	Client Side: HTML5, AngularJS, Bootstrap
 3.	Database: RDS MySQL, Hibernate, DynamoDB
-4.       Build Tool: Maven
+4.       Build Tool : Maven
 5.	Web Server: Apache Tomcat 8.5
 
 
