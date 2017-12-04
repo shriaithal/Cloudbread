@@ -1,3 +1,8 @@
+/**
+ * 
+ * @author Anuradha Rajashekar
+ *
+ */
 <!DOCTYPE html>
 <html >
 <head>
@@ -9,7 +14,7 @@
     width: auto;"> -->
 	
 	<div class="alert alert-danger" ng-show="showErrorAlert">
-        <button type="button" class="close" data-ng-click="switchBool('showErrorAlert')">×</button> <strong>Error!</strong> {{errorTextAlert}}
+        <button type="button" class="close" data-ng-click="switchBool('showErrorAlert')">Ã—</button> <strong>Error!</strong> {{errorTextAlert}}
      </div>
         
 	<!-- <div class="" style=" top: 60px;
