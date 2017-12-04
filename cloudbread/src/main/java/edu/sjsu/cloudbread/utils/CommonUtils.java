@@ -40,7 +40,11 @@ public class CommonUtils {
 	final static Logger logger = Logger.getLogger(CommonUtils.class);
 
 	public static Map<String, String> FILE_PROPERTIES = new HashMap<String, String>();
-
+	/**
+	 * 
+ 	* @author Nidhi Jamar
+ 	*
+ 	*/
 	static {
 		Properties properties = new Properties();
 		File file = null;
