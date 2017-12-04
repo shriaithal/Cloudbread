@@ -27,7 +27,12 @@ public class CloudBreadCharityServiceImpl implements CloudBreadCharityService {
 	
 	@Autowired
 	SQSEventProducer eventProducer;
-
+	
+	/**
+	 * 
+	 * @author Nidhi Jamar
+ 	 *
+ 	**/
 	@Override
 	public FoodDetailsResponse getFoodDetailsCharity(String userName) throws Exception {
 
@@ -62,7 +67,12 @@ public class CloudBreadCharityServiceImpl implements CloudBreadCharityService {
 
 		return response;
 	}
-
+	
+	/**
+	 * 
+	 * @author Nidhi Jamar
+ 	 *
+ 	**/
 	@Override
 	public void updateStatus(String requestId, String status, String userName) throws Exception {
 		// GenericResponse response= new GenericResponse();
