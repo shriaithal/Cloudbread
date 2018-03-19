@@ -5,11 +5,13 @@ Project 2: Cloudbread</br>
 University Name: http://www.sjsu.edu/</br>
 Course: [Cloud Technologies](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE281.html)</br>
 Professor: [Sanjay Garje](https://www.linkedin.com/in/sanjaygarje/)</br>
-ISA: [Divyankitha Urs](https://www.linkedin.com/in/divyankithaurs/)</br>
 Student:<br> [Anushri Srinath Aithal](https://www.linkedin.com/in/anushri-aithal/)</br>
          [Ashwini Shankar Narayan](https://www.linkedin.com/in/ashwinisnv/)</br>
          [Anuradha Rajashekar](https://www.linkedin.com/in/anu-rajashekar-4b950092/)</br>
          [Nidhi Jamar](https://www.linkedin.com/in/nidhijamar/)</br>
+         
+### Demo
+- [Cloudbread Demo](https://www.youtube.com/watch?v=ARmQtoyqwvs)
 
 ### Project Problem Statement:
 Every restaurant has perfectly good food that they cannot sell at the end of their day. Large amount of these food goes wasted and is thrown away in the dumping zone. How can one efficiently use this food to kill someone’s hunger? What if there is a platform which connects restaurants to institutes such as food banks. With this platform not only, food banks can serve more hungry people additionally restaurants will also have a meaningful channel to distribute or dispose of the surplus food. It’s a win-win situation where business can contribute to a sustainable environment in a meaningful way at the same time charities help fight food poverty.     For this to happen both food banks and restaurants will have to register with the platform and exchange information regarding how much food is remaining and food banks can collect those food from the nearest restaurants
